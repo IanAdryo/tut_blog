@@ -2,10 +2,13 @@
     class PostsController extends AppController {
         
         var $name = 'Posts';
+        var $layout = 'default'; //All action layout
 
         public function index () {
 
             $this->set('posts', $this->Post->find('all'));
+            $this->set('title_for_layout', 'Our blog title');
+            //$this->layout = 'default';    //Only this action layout
         }
 
         public function view($id = null) {
