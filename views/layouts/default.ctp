@@ -30,6 +30,8 @@
 
 		echo $this->Html->css('cake.generic');
 
+		echo $this->Html->meta('rss', '/posts/index.rss');
+
 		echo $scripts_for_layout;
 	?>
 </head>

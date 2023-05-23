@@ -50,7 +50,7 @@ ini_set('display_errors', 1);
  *
  */
 	if (!defined('CAKE_CORE_INCLUDE_PATH')) {
-		define('CAKE_CORE_INCLUDE_PATH', 'C:' . DS . 'Users' . DS . 'Ian Sanchez' . DS . 'AppData' . DS . 'Local' . DS . 'Programs' . DS . 'Xampp' . DS . 'htdocs' . DS . 'tut_blog');
+		define('CAKE_CORE_INCLUDE_PATH', 'C:' . DS . 'Users' . DS . 'Ian Sanchez' . DS . 'AppData' . DS . 'Local' . DS . 'Programs' . DS . 'Xampp' . DS . 'htdocs' . DS . 'cakephp-1.3.17');
 	}
 
 /**
